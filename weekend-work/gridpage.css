@@ -1,0 +1,274 @@
+body{
+    margin:0;
+    
+}
+.section{
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/1.jpg);
+    height: 62vh;
+   
+
+}
+.layout-1{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(27, 29, 28,0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    width: 100%;
+    
+}
+.nav{
+    padding-top: 15px;
+    align-content:space-around;
+    padding-right: 60px;
+    background-color: transparent, 
+    
+}
+.logo{
+    color: white;
+    height: 40px;
+
+}
+.nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.text{
+    margin: 100px 0px 0px 128px;
+}
+
+
+
+.text h2{
+    color: aliceblue;
+    font-size: 6rem;
+    white-space: pre-line;
+    margin: 0px;
+    color: rgb(213,176,75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.naver{
+    display: grid;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.text p{
+    white-space: pre-line;
+    color: white;
+}
+.botton1{
+    display: flex;
+    
+}
+.click{
+    border: 2px solid red;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+.botton1 p{
+    padding-left: 50px;
+    color: white;
+}
+
+.naver a{
+    text-decoration: none;
+}
+.layout-2{
+    display: grid;
+    background-color:white;
+    grid-template-columns: repeat(4, 250px) ;
+    grid-template-rows: repeat(4, 150px);
+    row-gap: 12px;
+    column-gap: 12px;
+    height: 930px;
+    padding-top: 25px;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+}
+.box1{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/3.jpg);
+
+}
+.box2{
+    background-color: black;
+   grid-row: span 2;
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/4.jpg);
+}
+.box3{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/5.jpg);
+}
+.box4{
+    background-color: black;
+    grid-row: span 2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/6.jpg);
+}
+.box5{
+    background-color: black;
+    grid-row: span 2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/7.jpg);
+}
+.box6{
+    background-color: black;
+    grid-row: span 2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/8.jpg)
+}
+.box7{
+    background-color: black;
+    grid-row: span 3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/9.jpg);
+}
+.box8{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/10.jpg);
+}
+.box9{
+    background-color: black;
+    grid-row: span 3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/37.jpg);
+}
+.box10{
+    background-color: black;
+    grid-row: span 3;
+    grid-column: span 2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/36.jpg);
+}
+.box11{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/alimie/img/bg-img/13.jpg);
+}
+.foot{
+    padding-top: 15px;
+    padding-left: 450px;
+}
+#bott{
+    border-color: red;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    
+}
+.drive{
+    background-color:white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last{
+    background-color: white;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+   padding-top: 30px;
+}
+.box12{
+    background-color: black;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image:url(https://themewagon.github.io/alimie/img/bg-img/16.jpg)
+}
+.box13{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://themewagon.github.io/alimie/img/bg-img/11.jpg)
+}
+.box14{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://themewagon.github.io/alimie/img/bg-img/12.jpg)
+}
+.box15{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://themewagon.github.io/alimie/img/bg-img/13.jpg)
+}
+.box16{
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://themewagon.github.io/alimie/img/bg-img/14.jpg)
+}
+.box17{
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://themewagon.github.io/alimie/img/bg-img/15.jpg)
+}
+#bold{
+    color: red;
+}
+.foot2{
+    display: flex;
+}
+.divend{
+    display: flex;
+    padding-left:300px ;
+    
+}
+.type{
+    padding-top: 12px;
+    padding-left: 350px;
+}
+.icon{
+    padding-top: 12px;
+    padding-left: 120px;
+}
